@@ -1,0 +1,305 @@
+body {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.25rem;
+	color: #333;
+	counter-reset: footnotecounter;
+}
+
+
+
+a, a:visited, a:active, a:focus {
+	color: #555;
+	background-color: transparent;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+a:focus {
+	color: #555;
+}
+
+a:hover {
+  color: #000;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+	text-decoration: none;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.8;
+}
+
+p a {
+	border-bottom: 1px dotted #555;
+}
+
+p a:hover {
+	border-bottom: 1px solid #000;
+}
+
+/*Links inside of h6 heading */
+h6 a {
+	border-bottom: 1px dotted #555;
+}
+
+h6 a:hover {
+	border-bottom: 1px solid #000;
+}
+
+
+blockquote {
+	background-color: #f5f5f5;
+	border-left: 3px solid #555;
+	padding: 30px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.gutter {
+	display: none;
+}
+
+.highlight {
+	background-color: #f5f5f5;
+	padding: 30px;
+}
+
+/* Forms
+—————————————————————————————————————————————————————————————————————— */
+
+form button {
+  color: #777;
+	font-size: 0.9rem;
+	background: #fff;
+  padding: 10px 15px;
+	width: 100%;
+  border: solid #ccc 2px;
+	transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+form button:hover {
+	color: #000;
+	border: solid #000 2px;
+  text-decoration: none;
+}
+
+input, textarea {
+	font-size: 0.9rem;
+	letter-spacing: 0.5px;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 15px;
+	margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+
+}
+
+input:focus, textarea:focus {
+  border-color: #777;
+  outline: none;
+}
+
+/* Title & Navigation
+—————————————————————————————————————————————————————————————————————— */
+
+.title {
+	color: #000;
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+}
+
+.nav-item {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.navbar-toggler {
+	border: 0;
+}
+
+.navbar-toggler-right {
+	right: 0rem;
+}
+.navbar-brand.ml-2 {
+	text-align: center;
+}
+
+
+/* Home Page
+—————————————————————————————————————————————————————————————————————— */
+
+.image-box {
+	position: relative;
+}
+
+.image-box:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+.post-image {
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.post-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.post-image img:hover {
+	opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.post-details {
+	font-size: 1.5rem;
+}
+
+.post-details hr {
+	border-color: #999;
+	width: 10%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.date {
+	color: #666;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+/* Pagination
+—————————————————————————————————————————————————————————————————————— */
+
+.pagination {
+	margin: 0 auto;
+}
+
+.pagination a {
+	color: #aaa;
+}
+
+.pagination a:hover {
+	color: #333;
+}
+
+/* Post Page
+—————————————————————————————————————————————————————————————————————— */
+
+.cover-image {
+	width: 100%;
+	max-height: 800px;
+	object-fit: contain;
+}
+
+.post-page h1 {
+	text-align: center;
+}
+
+.post-page hr {
+	border-color: #999;
+	width: 5%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+/* Footer
+—————————————————————————————————————————————————————————————————————— */
+
+footer {
+	border-top: 1px solid #eee;
+}
+
+/* Bootstrap ToolTips
+—————————————————————————————————————————————————————————————————————— */
+span.footnote:before {
+  counter-increment: footnotecounter;
+  content: counter(footnotecounter);
+  position: relative;
+  top: -0.4em;
+}
+
+span.footnote {
+    color: #24B1E6;
+}
+
+.middotDivider::after {
+    content: "·";
+	margin-left: .2em;
+	margin-right: .2em;
+}
+
+.u-fontSize12 {
+    font-size: 14px!important;
+}
+
+.parallax-window {
+	min-height: 400px;
+	width: 150%;
+	margin-left: -20%;
+	background: transparent;
+}
+
+.parallax-container {
+	height: 500px;
+	width: 100%;
+}
+
+img.fluffrd {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: .15em;
+}
+
+img.fluff {
+	margin-top: 1.3em;
+	margin-bottom: 1em;
+}
+img.leftfloat {
+	float: left;
+}
+
+a.tooltiplink {
+	color: #24B1E6;
+}
+
+
+/* custom css */
+
+.navbar{
+	background-color: #00ccbe;
+	/*background-color: indigo;*/
+  height: 12vh;
+}
+
+.title{
+	color: #fff;
+	font-size: 4rem;
+	font-family: 'Vollkorn', serif !important;
+}
+
+.nav-link{
+	color: #fff!important;
+	font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.post-image{
+	border-bottom: 5px solid #00ccbe;
+}
