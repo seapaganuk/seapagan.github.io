@@ -289,10 +289,10 @@ a.tooltiplink {
 }
 
 .title{
-	color: #222;
+	color: #333;
 	font-size: 4rem;
 	font-family: 'Playfair Display', serif !important;
-	border: 3px solid #222;
+	border: 3px solid #333;
 	padding: 0 15px 7.5px 15px;
 }
 
@@ -303,7 +303,7 @@ a.tooltiplink {
 }
 
 .post-image{
-	border-bottom: 5px solid #222;
+	border-bottom: 5px solid #333;
 }
 
 .p {
