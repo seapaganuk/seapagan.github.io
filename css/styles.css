@@ -1,5 +1,5 @@
 body {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Raleway', serif;
 	font-size: 1.25rem;
 	color: #333;
 	counter-reset: footnotecounter;
@@ -113,7 +113,7 @@ input:focus, textarea:focus {
 }
 
 .nav-item {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -177,7 +177,7 @@ input:focus, textarea:focus {
 
 .date {
 	color: #666;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	font-size: 0.7rem;
 	font-weight: 300;
@@ -283,27 +283,30 @@ a.tooltiplink {
 /* custom css */
 
 .navbar{
-	background-color: #00ccbe;
+	background-color: #fff;
 	/*background-color: indigo;*/
   height: 12vh;
 }
 
 .title{
-	color: #fff;
+	color: #222;
 	font-size: 4rem;
-	font-family: 'Vollkorn', serif !important;
+	font-family: 'Playfair Display', serif !important;
+	border: 3px solid #222;
+	padding: 0 15px 7.5px 15px;
 }
 
 .nav-link{
-	color: #fff!important;
+	color: #222!important;
 	font-size: 1.5rem;
   text-transform: capitalize;
 }
 
 .post-image{
-	border-bottom: 5px solid #00ccbe;
+	border-bottom: 5px solid #222;
 }
 
 .p {
-font-family: 'Rubik', helvetica, sans-serif;
+font-family: 'Raleway', helvetica, sans-serif;
+font-weight: bold;
 }
